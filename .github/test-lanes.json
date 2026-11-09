@@ -2,7 +2,11 @@
   "graph": {
     "module_roots": ["src", "tests"],
     "test_roots": ["tests", "ci_tests"],
-    "global_inputs": ["pyproject.toml", "tox.ini"]
+    "global_inputs": ["pyproject.toml", "tox.ini"],
+    "pytest_policy": {
+      "pyproject.toml": "ded37605ed54c6aae1c7a6de56134c451325a70c5d50d165720f4f976783ee50",
+      "tox.ini": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    }
   },
   "lanes": {
     "tests": { "roots": ["tests"], "inputs": ["tests/data/**"] },
