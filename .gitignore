@@ -130,3 +130,6 @@ dmypy.json
 
 # hatch-vcs
 src/*/_version.py
+
+# pytest-selective graph cache
+.test-impact/
