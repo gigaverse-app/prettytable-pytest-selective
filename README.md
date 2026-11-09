@@ -9,7 +9,7 @@
 [![Code style: Black](https://img.shields.io/badge/code%20style-Black-000000.svg)](https://github.com/psf/black)
 [![Tidelift](https://tidelift.com/badges/package/pypi/prettytable)](https://tidelift.com/subscription/pkg/pypi-prettytable?utm_source=pypi-prettytable&utm_medium=badge)
 
-PrettyTable lets you print tables in an attractive ASCII form:
+PrettyTable lets you print tables in an attractive ASCII form (probe):
 
 ```
 +-----------+------+------------+-----------------+

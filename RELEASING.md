@@ -23,3 +23,5 @@ pip uninstall -y prettytable
 pip install -U prettytable
 python3 -c "import prettytable; print(prettytable.__version__)"
 ```
+
+Probe: a documentation-only change.
