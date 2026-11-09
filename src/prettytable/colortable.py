@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+# Probe: a one-line source change for the pytest-selective adoption.
 from .prettytable import PrettyTable
 
 TYPE_CHECKING = False
