@@ -1,0 +1,12 @@
+{
+  "graph": {
+    "module_roots": ["src", "tests"],
+    "test_roots": ["tests", "ci_tests"],
+    "global_inputs": ["pyproject.toml", "tox.ini"]
+  },
+  "lanes": {
+    "tests": { "roots": ["tests"], "inputs": ["tests/data/**"] },
+    "routing": { "roots": ["ci_tests"] }
+  },
+  "global_inputs": [".github/test-lanes.json", ".github/workflows/test.yml"]
+}
