@@ -77,6 +77,8 @@ lint.isort.required-imports = [ "from __future__ import annotations" ]
 max_supported_python = "3.16"
 
 [tool.mypy]
+# ci_tests/ needs pytest-selective, which the mypy environment does not install.
+exclude = [ "^ci_tests/" ]
 follow_imports = "silent"
 python_version = "3.11"
 disallow_any_generics = true
